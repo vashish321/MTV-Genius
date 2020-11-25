@@ -1895,8 +1895,22 @@ section {
    margin-right:10px;
 }
 
+nav.mobile-nav.d-lg-none {
+  text-align: center;
+}
 
+img.sect {width:100%;height:auto;}
 
+@media (min-width: 993px) {
+  img.sect.section1 {
+    margin-top: 140px;
+  }
+}
+@media (max-width: 992px) {
+img.sect.section1 {
+  margin-top: 80px;
+}
+}
 
 
 
